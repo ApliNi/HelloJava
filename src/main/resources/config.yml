@@ -1,0 +1,14 @@
+config-version: 0
+
+# 插件指令: /testplugin
+# 留空 "" 以禁用功能. 可使用的变量:
+#   {player.name}   = 玩家名称
+
+
+# 玩家加入消息
+player-join:
+  broadcast: "{player.name} 加入了服务器"
+
+# 玩家退出消息
+player-quit:
+  broadcast: "{player.name} 跑了"

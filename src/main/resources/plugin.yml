@@ -1,0 +1,10 @@
+name: Test
+version: '${project.version}'
+main: aplini.test.Test
+api-version: 1.19
+authors: [ApliNi]
+description: 一个测试插件
+commands:
+  testplugin:
+    description: 测试插件的主命令
+    usage: /<command>
